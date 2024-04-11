@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>JavaScript Test</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<script src="js/functions.js" asp-append-version="true"></script>
+	<script src="js/index.js" asp-append-version="true"></script>
+
+	<style>
+		/* Add styles for sidebar here */
+	</style>
+</head>
+
+<body>
+	<div id="">
+		<div style="padding-top: 3rem;" class="sidebar">
+			<a href="#"><i class="fa fa-sign-out"></i> Logout</a>
+			<a href="#"><i class="fa fa-question-circle"></i> Help</a>
+			<a href="#"><i class="fa fa-cog"></i> System Administration</a>
+			<a href="#"><i class="fa fa-envelope"></i> Mailbox</a>
+			<a href="#"><i class="fa fa-bar-chart"></i> Dynamic Reports</a>
+			<a href="#"><i class="fa fa-desktop"></i> Display Access</a>
+			<a href="#"><i class="fa fa-calendar"></i> Calendar</a>
+			<hr>
+			<a href="#"><i class="fa fa-sitemap"></i> View Network</a>
+			<hr>
+			<a href="#"><i class="fa fa-tachometer"></i> Dashboard</a>
+			<a href="#"><i class="fa fa-file"></i> Our Documents</a>
+			<a href="#"><i class="fa fa-users"></i> 3rd Party Management</a>
+			<a href="#"><i class="fa fa-file-text-o"></i> Form Applications</a>
+		</div>
+		
+		<header class="header">
+			<h1 class="logo">Logo</h1>
+			<div style="display: flex; align-items: center; margin-right: 2rem; gap: 2rem;">
+				<h5 style="color: green;">john Agri company</h5>
+				<h5></h5>
+				<div class="nots">
+					<svg style="height: 20px; color: red;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+						<path
+							d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+					</svg>
+					<span class="num"
+						style="color: white; font-size: 1rem; padding: 1px; background-color: red;">243</span>
+				</div>
+				<hr>
+			</div>
+		</header>
+
+		<div class="main">
+			<h3>
+				Hello John !
+			</h3>
+
+			<div style="display: flex ; align-items: center; gap: 2rem;">
+				<h4>What would you like to do today?</h4>
+				<select class="select" name="" id="">
+					<option value="option1">option1</option>
+					<option value="option1">option2</option>
+					<option value="option1">option3</option>
+				</select>
+			</div>
+			<hr>
+
+			<div class="main-cards">
+				<div class="card">
+					<div style="background-color: rgb(24, 24, 28); color: aliceblue;border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem; text-align: center;">
+						Calendar events for the next 30 days
+					</div>
+					<div style="height: 200px; overflow-y: auto;">
+
+						<ul>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+							<li>Mar 13 2024: File Expiring: Idaho Quarterly Report-Q1.DynamicCMSFile</li>
+						</ul>
+					</div>
+				</div>
+				<div class="card">
+					<div style="background-color: rgb(24, 24, 28);border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem; color: aliceblue;text-align: center;">
+						Recent Company Messages
+					</div>
+					<ul>
+						<li>Aug 17 2023 8:55 PM: Hey ,Load New Safeguard polices</li>
+						<li>Aug 17 2023 8:55 PM: New Templates for licences are available . Select Instructions from
+							Dynamic Reports</li>
+					</ul>
+				</div>
+				<div class="card">
+					<div style="background-color: rgb(24, 24, 28);border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem; color: aliceblue; text-align: center;">
+						Current File Events </div>
+					<ul>
+						<li>Outside File Remediation <span style="margin-left: 10rem;">12</span></li>
+						<li>Outside File Expired <span style="margin-left: 12rem;">74</span></li>
+						<li>Outside File Expiring <span style="margin-left: 11.7rem;">27</span></li>
+					</ul>
+				</div>
+
+				<div class="card">
+					<div style="background-color: rgb(24, 24, 28);border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem; color: aliceblue; text-align: center;">
+						Current Open applications
+					</div>
+					<ul>
+						<li>Open ALLGATE Companies</li>
+						<li>Open Allgate-ARC Complaints and Disputes</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- <script>
+        StartMe();
+    </script> -->
+</body>
+
+</html>

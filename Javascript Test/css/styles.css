@@ -1,0 +1,96 @@
+.hdr {
+	font-weight: bold;
+	padding: 10px;
+}
+
+.specNote {
+	font-weight: normal;
+	font-size:14px;
+	padding-left:10px;
+}
+
+.pad5 {
+	padding: 5px
+}
+.pad10 {
+	padding: 10px
+}
+
+.instructionsBox {
+	padding: 10px;
+	background-color: navy;
+	color:white;
+}
+
+.icon {
+	width:12px;
+	height:12px;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	color: brown;
+	margin-left: 17rem;
+}
+.sidebar {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	background-color: #555;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	left: 0;
+	padding-top: 20px;
+}
+.header{
+	
+}
+.sidebar a {
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	display: block;
+}
+
+.sidebar a:hover {
+	background-color: #020202;
+}
+.nots{
+	position: relative;
+}
+.num{
+	position: absolute;
+}
+.main{
+	margin-left: 17rem;
+
+}
+
+.select{
+	width: 80%;
+	height: 2rem;
+}
+
+.main-cards{
+	display: flex;
+	gap: 3rem;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	margin-left: 10rem;
+	margin-top: 2rem;
+}
+
+.card {
+    width: 33%;
+    border-radius: 0.5rem;
+    border: 1px solid #555;
+    height: 16rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
